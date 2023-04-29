@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Nov 28 21:48:22 2021
+# Process ID: 1164
+# Current directory: C:/Users/mfeldahby/Desktop/project_2 _draft_1/project_2 _draft_1.runs/synth_1
+# Command line: vivado.exe -log calc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source calc.tcl
+# Log file: C:/Users/mfeldahby/Desktop/project_2 _draft_1/project_2 _draft_1.runs/synth_1/calc.vds
+# Journal file: C:/Users/mfeldahby/Desktop/project_2 _draft_1/project_2 _draft_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source calc.tcl -notrace
