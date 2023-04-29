@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Nov 22 12:05:53 2021
+# Process ID: 11684
+# Current directory: C:/Users/mfeldahby/Downloads/project_2 _draft_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9696 C:\Users\mfeldahby\Downloads\project_2 _draft_1\project_2 _draft_1.xpr
+# Log file: C:/Users/mfeldahby/Downloads/project_2 _draft_1/vivado.log
+# Journal file: C:/Users/mfeldahby/Downloads/project_2 _draft_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.xpr}
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new
+file mkdir C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1
+file mkdir {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new}
+close [ open {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new/cons.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.srcs/constrs_1/new/cons.xdc}}
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/mfeldahby/Downloads/project_2 _draft_1/project_2 _draft_1.runs/impl_1/calc.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
